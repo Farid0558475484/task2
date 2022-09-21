@@ -1,0 +1,78 @@
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.h2 {
+  font-size: 50px;
+  margin-bottom: -70px;
+}
+.h5 {
+  font-family: visby cf, Sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+}
+.title::before {
+  content: "";
+  background-color: rgba(113, 4, 62, 0.726);
+  color: aqua;
+  position: absolute;
+  width: 120px;
+  height: 2px;
+  top: 150px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-6 {
+  width: 50%;
+}
+.digiital-marketing {
+  padding: 10px;
+  border: 1px solid grey;
+}
+.design {
+  padding: 10px;
+  border: 1px solid grey;
+}
+
+.programming {
+  padding: 10px;
+  border: 1px solid grey;
+}
+
+.sistem {
+  padding: 10px;
+  border: 1px solid grey;
+}
+
+.logo i {
+  font-size: 80px;
+}
+
+.digiital-marketing:hover {
+  background-color: blueviolet;
+}
+.design:hover {
+  background-color: yellow;
+}
+.sistem:hover {
+  background-color: green;
+}
+.programming:hover {
+  background-color: blue;
+}
+@media only screen and (max-width: 991px) {
+  .col-7 {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .col-6 {
+    width: 100%;
+  }
+}

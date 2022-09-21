@@ -1,0 +1,54 @@
+.h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: -30px;
+  }
+  .h5 {
+    font-family: visby cf, Sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+  }
+  .container{
+      width: 80%;
+      margin: auto;
+  }
+  .title::before {
+    content: "";
+    background-color: rgba(113, 4, 62, 0.726);
+    color: aqua;
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    top: 150px;
+
+    margin-bottom: 100px;
+  }
+.text p{
+    margin-top: 50px;
+    width: 50%;
+}
+
+
+.final-text{
+    width: 20%;
+    margin-left: 20px;
+    
+}
+
+.text-photo{
+    display:flex
+}
+
+.projeckc{
+  
+    width: 50%;
+    display: flex;
+
+}
+.title-photo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* axra kimi catdirmadim elemey */
